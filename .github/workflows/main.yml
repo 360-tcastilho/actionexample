@@ -7,7 +7,7 @@ jobs:
     steps: 
     - name: Hello world action step
       id: hello
-      uses: 360-tcastilho/actionexample
+      uses: "360-tcastilho/actionexample"
       with:
         who-to-greet: 'Thiago'
     - name: Get the output time
